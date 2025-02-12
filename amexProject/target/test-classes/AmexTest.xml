@@ -1,0 +1,16 @@
+<?xml version ="1.0" encoding = "UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" >
+    <test name="AmexTesting" >
+        <parameter name="firstName" value="123456"/>
+        <parameter name="LastName" value="123"/>
+        <parameter name="dob" value="99999999"/>
+        <parameter name="email" value="krm.tharun"/>
+        <parameter name="countrycode" value="Inde"/>
+        <parameter name="phonenumber" value="85451"/>
+        <classes>
+            <class name="testAmexCRApplication">
+            </class>
+        </classes>
+    </test>
+</suite>
