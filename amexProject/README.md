@@ -17,8 +17,9 @@ Ensure you have the following installed:
 - Java (JDK 8 or later)  
 - Maven  
 - Git bash
-- ChromeDriver 
-- IDE (IntelliJ IDEA, Eclipse, or VS Code)  
+- ChromeDriver - version 133.0.6943.53
+- IDE (IntelliJ IDEA, Eclipse, or VS Code) 
+- Chrome - version 133.0.6943.53  
 
 ## 🛠️ Installation & Setup  
 Clone the repository:  
@@ -48,3 +49,6 @@ You can run the test suite using TestNG XML or Maven:
 |-- test-output      # Extent Reports
 |-- README.md       # Project Documentation
 
+Important Notes: 
+Cookies are handled properly by ChromeOptions class in CommonSetup class file.
+Sometimes in other system it is not working. Just rerun and check if needed. 
